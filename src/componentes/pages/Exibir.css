@@ -1,0 +1,100 @@
+.nenhum-paciente {
+    max-width: 100%;
+    height: auto;
+}
+.Titulo {
+    font-size: large;
+    font-weight: bold;
+}
+
+.Pacientes {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f7ff;
+    border-radius: 12px;
+    border: 1px solid #d0e1ff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 20;
+    transition: all 0.3s ease;
+}
+
+.Pacientes.expanded {
+    max-height: none;
+    padding: 30px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.informacoes-paciente {
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f7ff;
+    border-radius: 12px;
+    border: 1px solid #d0e1ff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: height 0.3s ease, padding 0.3s ease;
+    cursor: pointer;
+}
+
+.informacoes-paciente.expanded {
+    height: auto;
+    padding: 30px;
+}
+
+.informacoes-paciente:hover {
+    background-color: rgb(231, 238, 248);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apagar-button {
+    padding: 12px 20px;
+    background-color: #e24a4a;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.editar-button {
+    padding: 12px 20px;
+    background-color: #20fc36;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.apagar-button:hover {
+    background-color: #980000;
+}
+
+.editar-button:hover {
+    background-color: #009407;
+}

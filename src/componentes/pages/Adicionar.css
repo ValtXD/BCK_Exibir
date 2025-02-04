@@ -1,0 +1,74 @@
+/* Estilo para o contêiner do formulário */
+.formulario-paciente {
+    max-width: 800px;
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px;
+    background-color: #f2f7ff;
+    border-radius: 12px;
+    border: 1px solid #d0e1ff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 20;
+}
+
+/* Estilo para os grupos de formulários */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo para os labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="date"],
+textarea {
+    width: calc(100% - 24px); /* Ajusta a largura para considerar o padding */
+    padding: 12px;
+    border: 1px solid #cdd4e0;
+    border-radius: 8px;
+    background-color: #e8f0fe;
+    font-size: 18px;
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 30;
+    box-sizing: border-box; /* Garante que padding seja incluído na largura total */
+}
+
+/* Estilo para os grupos de checkboxes */
+.checkbox-group label {
+    display: block;
+    font-weight: normal;
+    margin-left: 16px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Estilo para o textarea */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Estilo para o botão de envio */
+.submit-button {
+    padding: 12px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #357ab8;
+}

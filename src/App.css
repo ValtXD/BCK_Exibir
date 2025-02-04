@@ -1,0 +1,30 @@
+.page-background {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.pages {
+  width: 90%;
+  margin-left: 110px;
+  padding: 90px;
+  flex-grow: 1;
+  min-height: calc(100vh - 60px);
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 10;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}

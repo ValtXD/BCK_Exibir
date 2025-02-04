@@ -1,0 +1,113 @@
+
+.BarraSuperior {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 10px;
+  background-color: #f3f9ff;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1100;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  padding: 0rem 1.5rem;
+  min-height: 74px;
+}
+
+.icon {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 24px;
+    align-items: center;
+}
+.BarraSuperior-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.logo-super {
+  width: 190px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.Nomedoprojeto {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    position: flex;
+}
+
+.BarraSuperior-right .foto-perfil {
+    position: flex;
+    cursor: pointer;
+    align-items: center;
+    width:  60px;
+    height: 60px;
+    border-radius: 90%;
+    background-color: rgb(255, 255, 255);
+}
+  .BarraSuperior-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .BarraSuperior-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .foto-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-info-dropdown {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 75px;
+    width: 150px;
+    right: 0;
+    background-color: rgb(218, 233, 254);
+    color: black;
+    border: 2px solid #1b4d5314;
+    border-radius: 10px;
+    padding: 40px;
+    z-index: 300;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .ButtonSair {
+    padding: 12px 20px;
+    background-color: #f5fff6;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: flex;
+  }
+
+  .ButtonSair:hover{
+    background-color: #f51717;
+  }
+
+  .user-info-dropdown:hover {
+    background-color: rgb(218, 233, 254);
+  }
+  
+  .user-info-dropdown p {
+    margin:10px 0;
+  }
+  
+
